@@ -1,0 +1,23 @@
+.imagenCarrito{
+    width: 100px;
+}
+.carrito{
+    display: flex;
+    align-items: center;
+}
+link{
+    text-decoration:  none;
+}
+.carrito i{
+    color: var(--clr-blanco);
+    font-size: 1.2rem;
+}
+.carrito i:hover{
+    color: var(--clr-amarillo);
+}
+.numerito {
+    
+    margin-left: 1rem;
+    color: var(--clr-blanco);
+
+}

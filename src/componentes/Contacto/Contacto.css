@@ -1,0 +1,7 @@
+.seccionContacto{
+    min-height: 90vh;
+    width: 100%;
+    background-image: url("../img/bart.jpg");
+    background-size: cover;
+    filter: grayscale(80%);
+}

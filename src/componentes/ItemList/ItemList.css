@@ -1,0 +1,15 @@
+.contenedor-productos{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+
+}
+@media (max-width: 768px) {
+    /* Estilos para tablets en orientación horizontal */
+    .contenedor-productos{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+    
+    }
+  }

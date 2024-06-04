@@ -1,0 +1,57 @@
+.contenedor-checkout h2 {
+text-align: center;
+padding: 1rem;
+background-color: var(--clr-oscuro);
+color: var(--clr-blanco);
+font-weight: 700;
+margin: 0px;
+}
+.item-carrito{
+    display: flex; 
+    flex-wrap: wrap;
+    border-bottom: 2px solid var(--clr-oscuro);
+    align-items: center;
+    width: fit-content;
+    margin: 1rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 80vh;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-image: url("../img/bart.jpg");
+    background-size: cover;
+    background-position: center;
+   
+}
+.fin-compra{
+    margin-top: 10px;
+    color: var(--clr-blanco);
+    background-color: var(--clr-oscuro);
+    width: fit-content;
+    padding: 10px;
+}
+form div {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    border-bottom: 1px solid var(--clr-oscuro);
+    background-color: var(--clr-oscuro);
+    padding:1rem;
+    width: 370px;
+    display: flex;
+    justify-content: space-between;
+    color: var(--clr-blanco);
+    
+}
+
+form button{
+    background-color: var(--clr-oscuro);
+    color: var(--clr-blanco);
+    padding: 1rem;
+    border-style: none;
+    margin-top: 1rem;
+}

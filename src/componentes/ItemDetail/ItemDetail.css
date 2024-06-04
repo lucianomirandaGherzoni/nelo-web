@@ -1,0 +1,117 @@
+.contenedor-detalles {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--clr-amarillo);
+    position: relative;
+}
+
+
+
+.card-detalles {
+    display: flex;
+    width: 70%;
+    height: 30%;
+    gap: 1rem;
+    background-color: var(--clr-blanco);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    border-radius: .5rem;
+    position: relative;
+    z-index: 1;
+ 
+}
+
+.contenedor-imagen {
+    width: 50%;
+    object-fit: cover;   
+}
+
+.contenedor-imagen img {
+    height: auto;
+    width:100%;
+}
+
+.contenedor-descripcion {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding-bottom: 1rem;
+    border-radius: 10px;
+    
+}
+.titulo-descripcion div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1rem;
+
+}
+.titulo-descripcion div h3 {
+    margin-right: 10px;
+}
+.titulo-descripcion h2 {
+    color: var(--clr-oscuro);
+}
+
+.fondo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/bart.jpg");
+    background-size: cover;
+    filter: grayscale(80%);
+  }
+.titulo-descripcion {
+    color: var(--clr-oscuro);
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+}
+.terminar-compra{
+
+    background-color: var(--clr-oscuro);
+    color: var(--clr-blanco);
+    padding:10px;
+    
+}
+.buttom-detail{
+    display: flex;
+}
+@media (max-width: 768px) {
+ .card-detalles{
+    flex-direction: column;
+    width: 400px;
+    max-height : fit-content;
+    border-radius: 0px;
+    margin: 2rem;
+
+ } 
+ .contenedor-imagen{
+    width: 100%;
+
+    border-radius: 0px;
+    height: 200px;
+ }
+ 
+ .contenedor-descripcion{
+    width: 100%;
+    height: fit-content;
+    gap: .5rem;
+    border-radius: 0px;
+    padding-bottom: 0px;
+ }
+ .titulo-descripcion{
+    margin: 0;
+    padding: 0;
+    min-height: 20rem;
+ }
+
+}

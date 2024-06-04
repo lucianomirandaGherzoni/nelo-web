@@ -1,0 +1,20 @@
+:root{
+
+    --clr-negro: #000;
+    --clr-blanco: #FEFEFE;
+    --clr-amarillo: #FFF212;
+    --clr-rojo: #ED3237;
+    --clr-oscuro: #201E1E;
+
+  
+}
+
+body{
+    background-color: var(--clr-blanco);
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+a{
+    font-style: none;
+}

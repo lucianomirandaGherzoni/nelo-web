@@ -1,0 +1,35 @@
+.contador button {
+    border: none;
+    padding: 10px;
+    background-color: var(--clr-oscuro);
+    color: var(--clr-blanco);
+    border-radius: 5px;
+ }
+ .contador button:hover{
+  transition: .5s;
+ background-color: var(--clr-amarillo);
+
+ }
+ .contador {
+    margin: 1rem;
+
+ }
+ .contador strong {
+   margin: 1rem;
+ }
+ a{ text-decoration: none; }
+ .agregar button{
+  width:100% ;
+   padding: 5px;
+   border-style: none;
+   border: solid 1px var(--clr-oscuro);
+   background-color: var(--clr-oscuro);
+   color: var(--clr-blanco);
+   border-radius: 10px;
+ }
+ .agregar button:hover{
+  transition: all .2s;
+   background-color: var(--clr-blanco);
+   color: var(--clr-oscuro);
+ }
+
