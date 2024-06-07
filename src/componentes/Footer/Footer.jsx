@@ -3,10 +3,11 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
   return (
     <footer id='footer'>
-      <div>
-        <img src="../img/logo-circulo.png" alt="logo" />
+      <div className='logo-footer'>
+  {/*       <img src="../img/logo-maquina.png" alt="logo" /> */}
+        <img src="../img/logo-letras.png" alt="logo" />
       </div>
-      <div> 
+      
       <div className='redes'><h3>REDES</h3>
         <ul>
           <li><i className="bi bi-tiktok"></i></li>
@@ -15,13 +16,13 @@ const Footer = () => {
           <li><i className="bi bi-facebook"></i></li>
         </ul>
       </div>
+
       <div className='contacto'>
         <h3>CONTACTO</h3>
         <div className='contacto-datos'>
-        <i className="bi bi-phone"><strong> +54 - 2944134510</strong></i>
-        <i className="bi bi-envelope-at"><strong> Neloworks.turfting@gmail.com</strong> </i>
+       <strong> +54 - 2944134510</strong>
+       <strong> Neloworks.turfting@gmail.com</strong>
         </div>
-      </div>
       </div>
       
       <div className='categorias'>
@@ -34,6 +35,7 @@ const Footer = () => {
           <Link to='productos'><li>Seguir Comprando!</li></Link>
         </ul>
       </div>
+
     </footer>
   )
 }

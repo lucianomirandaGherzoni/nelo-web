@@ -3,7 +3,7 @@ import CardWidget from "../CardWidget/CardWidget";
 import "./NavBar.css";
 import { NavLink, Link } from 'react-router-dom';
 const NavBar = () => {
-    const logoNelo = "../img/logo-letras.png";
+    const logoNelo = "../img/logo.png";
     return (
         <header>
             <nav className="navbar navbar-expand-lg bg-dark border-bottom border-body  navbar-color" data-bs-theme="dark">

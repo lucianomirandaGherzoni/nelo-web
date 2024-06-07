@@ -16,6 +16,7 @@
  
     grid-gap: 15px;
     grid-auto-rows: 75px;
+    padding: 40px;
 }
 
 .about-imagenes img{

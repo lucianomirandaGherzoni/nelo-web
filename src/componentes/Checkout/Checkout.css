@@ -14,7 +14,7 @@ margin: 0px;
     width: fit-content;
     margin: 1rem;
 }
-form{
+/* form{
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -26,7 +26,7 @@ form{
     background-size: cover;
     background-position: center;
    
-}
+} */
 .fin-compra{
     margin-top: 10px;
     color: var(--clr-blanco);
@@ -34,7 +34,7 @@ form{
     width: fit-content;
     padding: 10px;
 }
-form div {
+/* form div {
     display: flex;
     align-items: center;
     margin: 0;
@@ -47,11 +47,11 @@ form div {
     color: var(--clr-blanco);
     
 }
-
-form button{
+ */
+/* form button{
     background-color: var(--clr-oscuro);
     color: var(--clr-blanco);
     padding: 1rem;
     border-style: none;
     margin-top: 1rem;
-}
+} */

@@ -1,7 +1,27 @@
-.informacion{
+.informacion {
     min-height: 90vh;
     width: 100%;
-    background-image: url("../img/bart.jpg");
-    background-size: cover;
-    filter: grayscale(80%);
+    background-color: var(--clr-blanco);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.informacion-items {
+    width: 50%;
+    margin: 2rem;
+
+}
+.informacion-items div button{
+    background-color: var(--clr-oscuro);
+    color: var(--clr-blanco);
+}
+.informacion-items button:hover {
+    color: var(--clr-black);
+}
+.accordion-body{
+    background-color: var(--clr-oscuro);
+    color: var(--clr-blanco);
 }
