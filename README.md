@@ -1,8 +1,8 @@
-# Tienda NeloWorks Pastas
-Un e-commerce básico para la entrega final del curso de React en Coder House.
+# Tienda NeloWorks 
+Un e-commerce básico desarrollado con el framework React.
 
 ## Descripción
-Tienda NeloWorks Pastas es un e-commerce que permite a los usuarios ver una lista de productos y realizar compras en línea. Los productos se almacenan en Firebase y las órdenes de compra se cargan directamente desde Firebase.
+Tienda NeloWorks es un e-commerce que permite a los usuarios ver una lista de productos y realizar compras en línea. Los productos se almacenan en Firebase y las órdenes de compra se cargan directamente desde Firebase.
 
 ## Tecnologías utilizadas
 - Vite
