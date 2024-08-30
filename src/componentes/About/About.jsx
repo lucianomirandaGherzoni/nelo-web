@@ -3,18 +3,14 @@ import BannerTitulo from '../BannerTitulo/BannerTitulo'
 
 const About = () => {
 
-  const galeriaUno = "../img/galeria/galeria-1.jpg";
-  const galeriaDos = "../img/galeria/galeria-2.jpg";
-  const galeriaTres = "../img/galeria/galeria-3.jpg";
-  const galeriaCuatro = "../img/galeria/galeria-4.jpg";
-  const galeriaCinco = "../img/galeria/galeria-5.jpg";
-  const galeriaSeis = "../img/galeria/galeria-6.jpg";
-  const galeriaSiete = "../img/galeria/galeria-7.jpg";
-  const galeriaOcho = "../img/galeria/galeria-8.jpg";
-  const galeriaNueve = "../img/galeria/galeria-9.jpg";
-  const galeriaDiez = "../img/galeria/galeria-10.jpg";
-  const galeriaOnce = "../img/galeria/galeria-11.jpg";
-  const galeriaDoce = "../img/galeria/galeria-12.jpg";
+  const galeriaUno = "../img/galeria/galeria-1.webp";
+  const galeriaDos = "../img/galeria/galeria-2.webp";
+  const galeriaTres = "../img/galeria/galeria-3.webp";
+  const galeriaCuatro = "../img/galeria/galeria-4.webp";
+  const galeriaCinco = "../img/galeria/galeria-5.webp";
+  const galeriaSeis = "../img/galeria/galeria-6.webp";
+  const galeriaSiete = "../img/galeria/galeria-7.webp";
+  const galeriaOcho = "../img/galeria/galeria-8.webp";
 
   return (
     <div id='about'>
@@ -24,22 +20,13 @@ const About = () => {
 
         <div className='about-imagenes'>
           <div className='grande'><img src={galeriaUno} alt="NeloWorks Historia" /></div>
+          <div className='grande'><img src={galeriaCuatro} alt="NeloWorks Historia" /></div>
           <div className='mediano'><img src={galeriaDos} alt="NeloWorks Historia" /></div>
           <div className='grande'><img src={galeriaTres} alt="NeloWorks Historia" /></div>
-          <div className='chico'><img src={galeriaCuatro} alt="NeloWorks Historia" /></div>
-          <div className='grande'>
-            <img src={galeriaCinco} alt="NeloWorks Historia" />
-          </div>
-          <div className='chico'><img src={galeriaSeis} alt="NeloWorks Historia" /></div>
-          <div className='mediano'><img src={galeriaSiete} alt="NeloWorks Historia" /></div>
-          <div className='grande'><img src={galeriaOcho} alt="NeloWorks Historia" /></div>
-          <div className='chico'><img src={galeriaNueve} alt="NeloWorks Historia" /></div>
-          <div className='chico'><img src={galeriaDiez} alt="NeloWorks Historia" /></div>
-          <div className='grande'><img src={galeriaOnce} alt="NeloWorks Historia" /></div>
-          <div className='mediano'><img src={galeriaDoce} alt="NeloWorks Historia" /></div>
-          <div className='chico'><img src={galeriaDiez} alt="NeloWorks Historia" /></div>
-          <div className='chico'><img src={galeriaOnce} alt="NeloWorks Historia" /></div>
-
+          <div className='grande'><img src={galeriaCinco} alt="NeloWorks Historia" /></div>
+          <div className='mediano'><img src={galeriaSeis} alt="NeloWorks Historia" /></div>
+          <div className='chico'><img src={galeriaSiete} alt="NeloWorks Historia" /></div>
+          <div className='mediano'><img src={galeriaOcho} alt="NeloWorks Historia" /></div>
         </div>
         <div className='about-contenido'>
           <div>

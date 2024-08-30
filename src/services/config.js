@@ -2,13 +2,13 @@ import { initializeApp } from "firebase/app";
 import {getFirestore} from "firebase/firestore";
 
 const firebaseConfig = {
-    apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
-    authDomain: "berlinipastas-db.firebaseapp.com",
-    projectId: "berlinipastas-db",
-    storageBucket: "berlinipastas-db.appspot.com",
-    messagingSenderId: "587616245643",
-    appId: "1:587616245643:web:d32ea910d27ea4d5f4418e"
-  };
+  apiKey: "AIzaSyDfkVPeGAfTRmkYqUMEEPZehbcMq8ZswKU",
+  authDomain: "neloworks-db.firebaseapp.com",
+  projectId: "neloworks-db",
+  storageBucket: "neloworks-db.appspot.com",
+  messagingSenderId: "433410571359",
+  appId: "1:433410571359:web:f4dfd2d89642f2738e6fea"
+};
   
 const app = initializeApp(firebaseConfig);
-export const db = getFirestore(app);
+export const db = getFirestore(app); 

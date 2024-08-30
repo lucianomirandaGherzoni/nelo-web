@@ -10,10 +10,11 @@ link{
 }
 .carrito i{
     color: var(--clr-blanco);
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    font-weight: 700;
 }
 .carrito i:hover{
-    color: var(--clr-amarillo);
+    color: greenyellow;
 }
 .numerito {
     

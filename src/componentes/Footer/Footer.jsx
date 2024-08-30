@@ -4,8 +4,8 @@ const Footer = () => {
   return (
     <footer id='footer'>
       <div className='logo-footer'>
-  {/*       <img src="../img/logo-maquina.png" alt="logo" /> */}
-        <img src="../img/logo-letras.png" alt="logo" />
+  {/*       <img src="../img/logo-maquina.webp" alt="logo" /> */}
+        <img src="../img/logo-letras.webp" alt="logo" />
       </div>
       
       <div className='redes'><h3>REDES</h3>

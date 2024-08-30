@@ -26,12 +26,12 @@
 }
 .about-imagenes div {
     overflow: hidden;
-    border-radius: 10px;
+    border-radius: 5px;
 
 }
 .about-imagenes div:hover img {
     transform: scale(1.15);
-    border-radius: 20px;
+    border-radius: 5px;
 } 
 
  .about-contenido {
@@ -82,6 +82,8 @@
     .about-imagenes {
         display: flex;
         flex-wrap: wrap;
+        padding: 10px;
+        object-fit: contain;
     }
 
 }

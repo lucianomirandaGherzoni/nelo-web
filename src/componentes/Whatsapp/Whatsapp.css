@@ -18,6 +18,6 @@
     background-color: #128C7E;
     color: white;
   }
-  a.whatsapp-icon, i {
-    font-size: 2rem;
+  .whatsapp-icon, a i {
+    font-size: 30px;
   }

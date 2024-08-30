@@ -1,11 +1,11 @@
-import { Link } from 'react-router-dom';
+
 import './HeroCarrusel.css';
-import BannerTitulo from '../BannerTitulo/BannerTitulo';
+import BannerInfo from '../BannerInfo/BannerInfo';
 
 const HeroCarrusel = () => {
-    const imgUno = "../img/hero/bob-esponja-hero.jpg";
-    const imgDos = "../img/hero/cama-hero.jpg";
-    const imgTres = "../img/hero/sillas-hero.jpg";
+    const imgUno = "../img/hero/uno.webp";
+    const imgDos = "../img/hero/dos.webp";
+    const imgTres = "../img/hero/tres.webp";
 
     return (
         <>
@@ -20,24 +20,23 @@ const HeroCarrusel = () => {
                     <div className="carousel-inner carruselAltura">
 
                         <div className="carousel-item active">
-                            <img src={imgTres} className="d-block w-100 img" alt="NeloWorks Pastas Imagenes" />
+                            <img src={imgUno} className="d-block w-100 img" alt="NeloWorks Imagenes" />
                             <div className="carousel-caption2">
-                                <img src="../img/logo-letras.png" alt="logo Nelo" />
+                                <img src="../img/logo-letras.webp" alt="logo Nelo" />
                             </div>
                         </div>
 
-                        <div className="carousel-item">
-                            <img src={imgUno} className="d-block w-100 img" alt="NeloWorks Pastas Imagenes" />
-                            <div className="carousel-caption">
-                                <h2 className="descripcion-imagen"> 20% de descuento pagando con transferencia</h2>
-                                <Link to='productos'><button> Ver Productos </button>  </Link>
+                        <div className="carousel-item active">
+                            <img src={imgDos} className="d-block w-100 img" alt="NeloWorks Imagenes" />
+                            <div className="carousel-caption2">
+                                <img src="../img/logo-letras.webp" alt="logo Nelo" />
                             </div>
                         </div>
                         
-                        <div className="carousel-item">
-                            <img src={imgDos} className="d-block w-100 img" alt="NeloWorks Pastas Imagenes" />
+                        <div className="carousel-item active">
+                            <img src={imgTres} className="d-block w-100 img" alt="NeloWorks Imagenes" />
                             <div className="carousel-caption2">
-                                <img src="../img/logo-circulo.png" alt="logo Nelo" />
+                                <img src="../img/logo-letras.webp" alt="logo Nelo" />
                             </div>
 
                         </div>
@@ -51,7 +50,7 @@ const HeroCarrusel = () => {
 
 
             </div>
-            <BannerTitulo titulo="" subtitulo="Dale personalidad a tu espacio con alfombras hechas a mano :)" />
+           <BannerInfo/>
 
         </>
     )

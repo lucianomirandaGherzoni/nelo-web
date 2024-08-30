@@ -7,10 +7,11 @@
   max-width: 100%
 }
 
-.img {
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
+.carousel-item img {
+  max-width: 100%;
   height: 100vh;
+  object-fit: cover;
+  object-position: top;
 }
 
 .carousel-caption {
@@ -65,11 +66,10 @@
   border-radius: 100%;
 }
 
-.carousel-caption2 img,
-.carousel-caption3 img {
+.carousel-caption2 img {
+  height: auto;
   width: 200px;
 }
-
 .carousel-caption3 {
   text-align: center;
   display: flex;
@@ -100,8 +100,12 @@
   .carousel-caption h2 strong {
     color: var(--clr-amarillo);
   }
-  .carousel-caption2 img{
+
+  
+  .carousel-item img {
+   max-height: auto;
+  }
+  .carousel-caption2 img {
     width: 150px;
   }
-
 }

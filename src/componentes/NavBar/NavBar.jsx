@@ -1,11 +1,13 @@
 import React from 'react'
 import CardWidget from "../CardWidget/CardWidget";
+import SliderDos from '../SliderDos/SliderDos';
 import "./NavBar.css";
 import { NavLink, Link } from 'react-router-dom';
 const NavBar = () => {
-    const logoNelo = "../img/logo.png";
+    const logoNelo = "../img/logo.webp";
     return (
         <header>
+            <SliderDos/>
             <nav className="navbar navbar-expand-lg bg-dark border-bottom border-body  navbar-color" data-bs-theme="dark">
                 <div className="container-fluid navbar-boostrap">
                     <Link to="/"><img className='logo navbar-brand' src={logoNelo} alt="logo Nelo" /> </Link>

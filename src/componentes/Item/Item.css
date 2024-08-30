@@ -4,8 +4,10 @@
     justify-content: space-between;
     padding: 1rem;
     max-height: 25rem;
+    max-width: 300px;
     gap: .5rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
 }
 
 
@@ -22,7 +24,7 @@
 
 .productoCard img {
     width: 100%;
-    object-fit: contain;
+    object-fit: fill;
     height: 200px;
 
 }
@@ -53,20 +55,22 @@
     background-color: var(--clr-oscuro);
     color: var(--clr-blanco);
     border-style: none;
-    padding:0px 10px;
-    font-weight: 500;
-    border-radius: 5px;
+    padding:5px 15px;
+    border-radius: 500px;
     width: fit-content;
-    font-size: 14px;
+    font-size: 12px;
 
 }
+.productoCard button i{
+    font-size: 16px;
+    margin-left: 10px;
+}
+
 .producto-descripcion-card h3:hover {
     color: var(--clr-rojo);
     transition: all 2s;
 }
-.productoCard:hover{
-    
-}
+
 .producto-descripcion-card strong {
     font-size: 1rem;
     font-weight: 900;
